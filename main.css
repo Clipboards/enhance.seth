@@ -30,9 +30,10 @@ body {
     transition: .25s;
 }
 
-.squish {
+.enhance {
     background-size: 200% 200% !important;
-	width: 180px !important;
+	width: 240px !important;
+	width: 303px !important;
 }
 
 #button {
