@@ -33,7 +33,7 @@ body {
 .enhance {
     background-size: 200% 200% !important;
 	width: 240px !important;
-	width: 303px !important;
+	height: 303px !important;
 }
 
 #button {
