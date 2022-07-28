@@ -11,12 +11,12 @@
 		
             function rotate() {
               var seth = document.getElementById("canvas");
-                if (seth.classList.contains("squish")) {
-                    seth.classList.remove("squish");
+                if (seth.classList.contains("enhance")) {
+                    seth.classList.remove("enhance");
                 } else {
-                    seth.classList.add("squish");
+                    seth.classList.add("enhance");
 					count ++;
-					document.getElementById("count").innerHTML = "Squish count: "+count;
+					document.getElementById("count").innerHTML = "Enhance count: "+count;
                 }
             }
         </script>
@@ -24,6 +24,6 @@
     <body>
         <div id="canvas" class=""></div>
         <div id="button" onclick="rotate()"></div>
-		<div id="count">Squish count: 0</div>
+		<div id="count">Enhance count: 0</div>
     </body>
 </html>
