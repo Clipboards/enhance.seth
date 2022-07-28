@@ -31,8 +31,8 @@ body {
 }
 
 .squish {
-    background-size: 100% 70% !important;
-	width: 90px !important;
+    background-size: 200% 200% !important;
+	width: 180px !important;
 }
 
 #button {
